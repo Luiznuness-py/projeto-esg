@@ -1,0 +1,34 @@
+<section class="quiz-page fade-in" id="quiz-page">
+  <div class="quiz-header">
+    <h2 id="quiz-title">Quiz de Conhecimento - ESG</h2>
+    <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <div class="progress-bar" style="width:0%" id="progress-bar"></div>
+    </div>
+    <div class="q-meta">
+      <span id="q-index">Pergunta 1 de 10</span>
+    </div>
+  </div>
+
+  <form id="quiz-form" class="quiz-form" aria-live="polite">
+    <fieldset id="question-fieldset">
+      <legend id="question-text">Carregando pergunta...</legend>
+      <div id="options" class="options"></div>
+    </fieldset>
+
+    <div class="quiz-controls">
+      <button type="button" id="btn-prev" class="btn" disabled>Anterior</button>
+      <button type="button" id="btn-finalize" class="btn primary" disabled>Finalizar</button>
+    </div>
+  </form>
+
+  <section id="result" class="quiz-result" hidden>
+    <div class="score-circle" id="score-circle" aria-hidden="true">0%</div>
+    <h3 id="result-title">Resultado</h3>
+    <p id="result-message">Seu resultado aparecerá aqui.</p>
+
+    <div class="result-actions">
+      <button id="btn-retry" class="btn">Tentar Novamente</button>
+      <button id="btn-back" class="btn">Voltar para o Início</button>
+    </div>
+  </section>
+</section>

@@ -1,0 +1,16 @@
+/* home.css - estilos específicos da home */
+.pilares .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:12px}
+
+.card-ambiental{border-left-color:var(--primary)}
+.card-social{border-left-color:var(--highlight)}
+.card-governanca{border-left-color:#2b6fa3}
+
+.hero{margin-bottom:12px}
+.hero .lead{font-size:18px}
+
+@media (max-width:900px){
+  .pilares .cards{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:600px){
+  .pilares .cards{grid-template-columns:1fr}
+}

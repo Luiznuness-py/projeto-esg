@@ -1,0 +1,70 @@
+/* style.css - Estilos globais e variáveis */
+:root{
+  --primary: #1a5f4a; /* verde-escuro */
+  --secondary: #2d9b7e; /* verde-claro */
+  --highlight: #f39c12; /* laranja */
+  --success: #27ae60;
+  --bg: #ecf0f1;
+  --text: #2c3e50;
+  --card-radius: 8px;
+  --max-width: 1000px;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%;}
+body{
+  margin:0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+}
+.container{max-width:var(--max-width);margin:0 auto;padding:20px}
+
+/* Header */
+.site-header{background:linear-gradient(90deg,var(--primary), rgba(26,95,74,0.9));color:#fff}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:16px}
+.logo .logo-circle{display:inline-block;background:var(--highlight);color:#fff;border-radius:50%;width:48px;height:48px;display:flex;align-items:center;justify-content:center;font-weight:700}
+
+.main-nav .nav-btn{background:transparent;border:0;color:#fff;padding:10px 14px;border-radius:6px;cursor:pointer}
+.main-nav .nav-btn[aria-pressed="true"], .main-nav .nav-btn.active{background:rgba(255,255,255,0.12);}
+.main-nav .nav-btn:focus{outline:3px solid rgba(243,156,18,0.2)}
+
+/* App & Footer */
+.app{padding:32px 20px;min-height:60vh}
+.site-footer{padding:20px 0;background:transparent;color:var(--text);font-size:14px}
+
+/* Cards and boxes */
+.card{background:#fff;border-radius:var(--card-radius);box-shadow:0 6px 18px rgba(44,62,80,0.06);padding:18px;margin-bottom:16px;border-left:6px solid var(--primary)}
+.intro-box{background:rgba(26,95,74,0.08);padding:16px;border-left:6px solid var(--secondary);border-radius:6px;margin:16px 0}
+
+/* Typography */
+h1{font-size:32px;margin:6px 0}
+h2{font-size:22px;margin:14px 0}
+h3{font-size:18px;margin:6px 0}
+p{font-size:16px;line-height:1.6}
+.lead{font-weight:600}
+
+/* Responsividade */
+@media (max-width:600px){
+  h1{font-size:24px}
+  .header-inner{padding:12px}
+  .container{padding:12px}
+}
+
+/* Animations */
+.fade-in{animation:fadeIn 400ms ease both}
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+/* Utility */
+.btn{padding:10px 14px;border-radius:8px;border:1px solid rgba(44,62,80,0.08);background:#fff;cursor:pointer}
+.btn.primary{background:var(--secondary);color:#fff;border:0}
+.btn:disabled{opacity:0.6;cursor:not-allowed}
+
+/* Accessible focus for interactive elements */
+a,button,input,select,textarea{transition:all .18s}
+:focus{outline:3px solid rgba(45,155,126,0.18);outline-offset:2px}
+
+/* small helpers */
+.row{display:flex;gap:16px}
+.column{flex:1}
