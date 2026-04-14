@@ -1,51 +1,772 @@
 <section class="home-page fade-in">
-  <article class="hero">
-    <h1>O que é ESG</h1>
-    <p class="lead">ESG — Ambiental, Social e Governança — é um conjunto de critérios que avaliam o desempenho das organizações para além do resultado financeiro, incorporando impactos ambientais, responsabilidade social e práticas de governança. O termo foi cunhado em 2004 no relatório "Who Cares Wins", desenvolvido pela ONU em parceria com o Banco Mundial; desde então, tornou-se um fator determinante para empresas competitivas no mercado global, não apenas como um imperativo ético, mas como componente crítico na previsão de desempenho financeiro e gestão de riscos.</p>
+
+  <!-- ── HERO ── -->
+  <article class="hero hero-split">
+    <div class="hero-content">
+      <h1>O que é ESG</h1>
+      <p class="lead">ESG — Ambiental, Social e Governança — é um conjunto de critérios que avaliam o desempenho das organizações para além do resultado financeiro, incorporando impactos ambientais, responsabilidade social e práticas de governança. O termo foi cunhado em 2004 no relatório "Who Cares Wins", desenvolvido pela ONU em parceria com o Banco Mundial; desde então, tornou-se um fator determinante para empresas competitivas no mercado global, não apenas como um imperativo ético, mas como componente crítico na previsão de desempenho financeiro e gestão de riscos.</p>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <svg viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg" aria-label="Diagrama de Venn ESG — três pilares interconectados">
+        <!-- Círculos do diagrama de Venn -->
+        <circle cx="150" cy="96"  r="72" fill="#1a5f4a" opacity="0.13"/>
+        <circle cx="150" cy="96"  r="72" fill="none" stroke="#1a5f4a" stroke-width="2.2"/>
+        <circle cx="106" cy="170" r="72" fill="#f39c12" opacity="0.10"/>
+        <circle cx="106" cy="170" r="72" fill="none" stroke="#f39c12" stroke-width="2.2"/>
+        <circle cx="194" cy="170" r="72" fill="#2b6fa3" opacity="0.10"/>
+        <circle cx="194" cy="170" r="72" fill="none" stroke="#2b6fa3" stroke-width="2.2"/>
+
+        <!-- Ícone folha — zona E (Ambiental) -->
+        <g transform="translate(138,62) scale(0.5)">
+          <path d="M24 8 C16 13 12 23 17 32 C19 26 23 23 29 23 C24 29 22 35 24 40 C26 40 28 37 30 32 C36 22 33 9 24 8Z" fill="#1a5f4a" opacity="0.85"/>
+        </g>
+        <text x="150" y="90"  text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="13" font-weight="800" fill="#1a5f4a">E</text>
+        <text x="150" y="103" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="9"  font-weight="600" fill="#1a5f4a">AMBIENTAL</text>
+
+        <!-- Ícone pessoas — zona S (Social) -->
+        <g transform="translate(68,152) scale(0.5)">
+          <circle cx="24" cy="16" r="6" fill="#f39c12"/>
+          <path d="M14 38 Q14 26 24 26 Q34 26 34 38Z" fill="#f39c12"/>
+          <circle cx="11" cy="20" r="4" fill="#f39c12" opacity="0.6"/>
+          <path d="M4 37 Q4 29 11 29 Q16 29 18 32" fill="#f39c12" opacity="0.6"/>
+          <circle cx="37" cy="20" r="4" fill="#f39c12" opacity="0.6"/>
+          <path d="M30 32 Q32 29 37 29 Q44 29 44 37" fill="#f39c12" opacity="0.6"/>
+        </g>
+        <text x="78" y="181" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="13" font-weight="800" fill="#c87d0d">S</text>
+        <text x="78" y="194" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="9"  font-weight="600" fill="#c87d0d">SOCIAL</text>
+
+        <!-- Ícone edifício — zona G (Governança) -->
+        <g transform="translate(208,151) scale(0.5)">
+          <rect x="8"    y="38" width="32" height="3" rx="1" fill="#2b6fa3"/>
+          <rect x="11"   y="22" width="5"  height="16" fill="#2b6fa3"/>
+          <rect x="21.5" y="22" width="5"  height="16" fill="#2b6fa3"/>
+          <rect x="32"   y="22" width="5"  height="16" fill="#2b6fa3"/>
+          <rect x="8"    y="19" width="32" height="3" rx="1" fill="#2b6fa3"/>
+          <polygon points="24,8 8,19 40,19" fill="#2b6fa3"/>
+        </g>
+        <text x="222" y="182" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="13" font-weight="800" fill="#2b6fa3">G</text>
+        <text x="222" y="195" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="9"  font-weight="600" fill="#2b6fa3">GOVERNANÇA</text>
+
+        <!-- Texto central — zona de interseção tripla -->
+        <text x="150" y="148" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="24" font-weight="800" fill="#2c3e50" opacity="0.88">ESG</text>
+      </svg>
+    </div>
   </article>
 
+  <!-- ── STATS STRIP ── -->
+  <div class="stats-strip" aria-label="Dados e números do ESG">
+    <div class="stat-item">
+      <svg class="stat-icon" viewBox="0 0 36 36" aria-hidden="true">
+        <circle cx="18" cy="18" r="17" fill="#e8f5e9"/>
+        <path d="M18 7 C11 11 9 19 13 26 C14 21 18 18 23 19 C19 24 18 28 18 32 C20 32 22 30 24 26 C28 18 26 8 18 7Z" fill="#1a5f4a"/>
+      </svg>
+      <span class="stat-num">US$ 50T</span>
+      <span class="stat-label">mercado global ESG</span>
+    </div>
+    <div class="stat-item">
+      <svg class="stat-icon" viewBox="0 0 36 36" aria-hidden="true">
+        <circle cx="18" cy="18" r="17" fill="#fff8e1"/>
+        <path d="M8 26 L12 20 L18 24 L24 14 L28 18" fill="none" stroke="#f39c12" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="28" cy="18" r="2" fill="#f39c12"/>
+      </svg>
+      <span class="stat-num">2004</span>
+      <span class="stat-label">origem do termo ESG</span>
+    </div>
+    <div class="stat-item">
+      <svg class="stat-icon" viewBox="0 0 36 36" aria-hidden="true">
+        <circle cx="18" cy="18" r="17" fill="#e3f2fd"/>
+        <text x="18" y="24" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="15" font-weight="800" fill="#2b6fa3">17</text>
+      </svg>
+      <span class="stat-num">17 ODS</span>
+      <span class="stat-label">Objetivos de Desenvolvimento Sustentável da ONU</span>
+    </div>
+    <div class="stat-item">
+      <svg class="stat-icon" viewBox="0 0 36 36" aria-hidden="true">
+        <circle cx="18" cy="18" r="17" fill="#e8f5e9"/>
+        <rect x="8"  y="26" width="20" height="3" rx="1" fill="#1a5f4a"/>
+        <rect x="10" y="16" width="4"  height="10" fill="#1a5f4a"/>
+        <rect x="16" y="16" width="4"  height="10" fill="#1a5f4a"/>
+        <rect x="22" y="16" width="4"  height="10" fill="#1a5f4a"/>
+        <rect x="8"  y="13" width="20" height="3" rx="1" fill="#1a5f4a"/>
+        <polygon points="18,7 8,13 28,13" fill="#1a5f4a"/>
+      </svg>
+      <span class="stat-num">Dez/2024</span>
+      <span class="stat-label">mercado de carbono legalizado no Brasil</span>
+    </div>
+  </div>
+
+  <!-- ── INTRO BOX ── -->
   <section class="intro-box">
     <p>Integrar ESG é alinhar propósito e estratégia: reduz riscos, atrai investidores e talentos e fortalece a reputação corporativa.</p>
   </section>
 
+  <!-- ── OS TRÊS PILARES ── -->
   <section class="pilares">
     <h2>Os Três Pilares do ESG</h2>
-
     <div class="cards">
+
       <article class="card card-ambiental" aria-labelledby="amb-title">
+        <svg class="card-icon" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" fill="#e8f5e9"/>
+          <path d="M24 8 C16 13 12 23 17 32 C19 26 23 23 29 23 C24 29 22 35 24 40 C26 40 28 37 30 32 C36 22 33 9 24 8Z" fill="#1a5f4a"/>
+          <line x1="24" y1="40" x2="18" y2="46" stroke="#2d9b7e" stroke-width="2" stroke-linecap="round"/>
+        </svg>
         <h3 id="amb-title">Pilar Ambiental (E)</h3>
         <p>O pilar ambiental engloba práticas voltadas para a redução das emissões de carbono, aumento da eficiência energética e transição para fontes renováveis, gestão adequada de resíduos, proteção da biodiversidade, adoção de princípios da economia circular e fortalecimento da resiliência climática para minimizar impactos de eventos extremos e assegurar a continuidade dos negócios.</p>
       </article>
 
       <article class="card card-social" aria-labelledby="soc-title">
+        <svg class="card-icon" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" fill="#fff8e1"/>
+          <circle cx="24" cy="16" r="6" fill="#f39c12"/>
+          <path d="M14 38 Q14 26 24 26 Q34 26 34 38Z" fill="#f39c12"/>
+          <circle cx="11" cy="20" r="4" fill="#f39c12" opacity="0.55"/>
+          <path d="M4 37 Q4 29 11 29 Q16 29 18 32" fill="#f39c12" opacity="0.55"/>
+          <circle cx="37" cy="20" r="4" fill="#f39c12" opacity="0.55"/>
+          <path d="M30 32 Q32 29 37 29 Q44 29 44 37" fill="#f39c12" opacity="0.55"/>
+        </svg>
         <h3 id="soc-title">Pilar Social (S)</h3>
         <p>O pilar social foca nos direitos humanos e trabalhistas, promoção da diversidade e inclusão, saúde e bem-estar dos colaboradores, relações responsáveis com fornecedores, impacto positivo nas comunidades locais, investimento em educação e desenvolvimento profissional, e transparência nas relações com stakeholders para construir confiança e equidade.</p>
       </article>
 
       <article class="card card-governanca" aria-labelledby="gov-title">
+        <svg class="card-icon" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" fill="#e3f2fd"/>
+          <rect x="8"    y="38" width="32" height="3" rx="1" fill="#2b6fa3"/>
+          <rect x="11"   y="22" width="5"  height="16" fill="#2b6fa3"/>
+          <rect x="21.5" y="22" width="5"  height="16" fill="#2b6fa3"/>
+          <rect x="32"   y="22" width="5"  height="16" fill="#2b6fa3"/>
+          <rect x="8"    y="19" width="32" height="3" rx="1" fill="#2b6fa3"/>
+          <polygon points="24,8 8,19 40,19" fill="#2b6fa3"/>
+        </svg>
         <h3 id="gov-title">Pilar Governança (G)</h3>
         <p>O pilar de governança cobre a composição diversa e independente dos conselhos, transparência financeira, políticas de combate à corrupção, estruturas de remuneração justa, canais de denúncia eficazes, proteção dos direitos dos acionistas e conformidade legal, garantindo responsabilidade, integridade e tomada de decisão sustentável.</p>
       </article>
+
     </div>
   </section>
 
+  <!-- ── POR QUE ESG É IMPORTANTE ── -->
   <section class="why-esg">
     <h2>Por que ESG é Importante</h2>
     <p>Adotar práticas de ESG oferece diversos benefícios: o mercado global de ativos ESG ultrapassa US$50 trilhões, atraindo investidores alinhados aos Objetivos de Desenvolvimento Sustentável (ODS); além disso, reduz riscos operacionais, melhora a reputação e preferência dos consumidores, reforça a atração e retenção de talentos e existe uma correlação crescente entre iniciativas ESG e desempenho financeiro de longo prazo.</p>
+    <div class="benefits-grid">
+      <div class="benefit-item">
+        <svg viewBox="0 0 44 44" aria-hidden="true">
+          <circle cx="22" cy="22" r="21" fill="#e8f5e9"/>
+          <path d="M22 8 L32 13 L32 22 C32 29 27 33 22 36 C17 33 12 29 12 22 L12 13Z" fill="#1a5f4a" opacity="0.85"/>
+          <polyline points="17,22 21,26 28,18" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Redução de Riscos</span>
+      </div>
+      <div class="benefit-item">
+        <svg viewBox="0 0 44 44" aria-hidden="true">
+          <circle cx="22" cy="22" r="21" fill="#fff8e1"/>
+          <rect x="8"  y="30" width="6" height="6" fill="#f39c12"/>
+          <rect x="17" y="22" width="6" height="14" fill="#f39c12"/>
+          <rect x="26" y="15" width="6" height="21" fill="#f39c12"/>
+          <polyline points="11,24 20,18 29,11" fill="none" stroke="#c87d0d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="29" cy="11" r="2" fill="#c87d0d"/>
+        </svg>
+        <span>Atração de Investidores</span>
+      </div>
+      <div class="benefit-item">
+        <svg viewBox="0 0 44 44" aria-hidden="true">
+          <circle cx="22" cy="22" r="21" fill="#e3f2fd"/>
+          <circle cx="22" cy="16" r="5" fill="#2b6fa3"/>
+          <path d="M12 36 Q12 26 22 26 Q32 26 32 36Z" fill="#2b6fa3"/>
+          <path d="M22 10 L23.5 14 L28 14 L24.5 16.5 L26 21 L22 18.5 L18 21 L19.5 16.5 L16 14 L20.5 14Z" fill="#fff" opacity="0.85"/>
+        </svg>
+        <span>Retenção de Talentos</span>
+      </div>
+      <div class="benefit-item">
+        <svg viewBox="0 0 44 44" aria-hidden="true">
+          <circle cx="22" cy="22" r="21" fill="#fce4ec"/>
+          <path d="M22 34 C10 26 8 16 14 12 C17 10 20 12 22 15 C24 12 27 10 30 12 C36 16 34 26 22 34Z" fill="#e53935" opacity="0.82"/>
+        </svg>
+        <span>Reputação Corporativa</span>
+      </div>
+    </div>
   </section>
 
+  <!-- ── ESG NO BRASIL ── -->
   <section class="esg-brasil">
     <h2>ESG no Brasil</h2>
-    <p>No contexto brasileiro, destaca-se a ABNT NBR 2030 como referência, a regulamentação do mercado de carbono legalizada em dezembro de 2024, além dos índices ESG da B3 como o ISE B3 e a parceria com o S&P/B3. Empresas brasileiras têm adotado padrões internacionais de reporte como GRI, SASB e IIRC para aumentar transparência e comparabilidade.</p>
+    <p>No contexto brasileiro, destaca-se a ABNT NBR 2030 como referência, a regulamentação do mercado de carbono legalizada em dezembro de 2024, além dos índices ESG da B3 como o ISE B3 e a parceria com o S&amp;P/B3. Empresas brasileiras têm adotado padrões internacionais de reporte como GRI, SASB e IIRC para aumentar transparência e comparabilidade.</p>
+    <div class="milestones">
+      <div class="milestone">
+        <span class="milestone-year">2004</span>
+        <span class="milestone-desc">"Who Cares Wins" — ONU cunha o termo ESG</span>
+      </div>
+      <div class="milestone">
+        <span class="milestone-year">ISE B3</span>
+        <span class="milestone-desc">Índice de Sustentabilidade Empresarial da Bolsa</span>
+      </div>
+      <div class="milestone">
+        <span class="milestone-year">ABNT</span>
+        <span class="milestone-desc">NBR 2030 — norma brasileira de referência ESG</span>
+      </div>
+      <div class="milestone">
+        <span class="milestone-year">Dez/24</span>
+        <span class="milestone-desc">Mercado de carbono legalizado no Brasil</span>
+      </div>
+    </div>
   </section>
 
+  <!-- ── DESAFIOS E OPORTUNIDADES ── -->
   <section class="desafios-oportunidades">
     <h2>Desafios e Oportunidades na Implementação de ESG</h2>
-    <p>As empresas enfrentam desafios ao implementar ESG, como custos iniciais, complexidade em mudanças operacionais e resistência organizacional; entretanto, há oportunidades significativas para inovação e competitividade. Exemplos de destaque no Brasil incluem iniciativas de grandes empresas que alinham estratégias de sustentabilidade com modelos de negócio, enquanto o papel do consumidor é cada vez mais central na exigência por práticas responsáveis.</p>
+    <div class="two-col">
+      <div class="challenge-col">
+        <h3 class="col-header challenge-header">Desafios</h3>
+        <ul class="icon-list challenge-list">
+          <li>Custos iniciais de implementação</li>
+          <li>Complexidade em mudanças operacionais</li>
+          <li>Resistência organizacional interna</li>
+          <li>Mensuração e reporte de indicadores</li>
+        </ul>
+      </div>
+      <div class="opportunity-col">
+        <h3 class="col-header opportunity-header">Oportunidades</h3>
+        <ul class="icon-list opportunity-list">
+          <li>Inovação e competitividade de mercado</li>
+          <li>Acesso a capital verde e incentivos</li>
+          <li>Diferenciação de marca e produto</li>
+          <li>Alinhamento com tendências globais</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
+  <!-- ── O FUTURO DO ESG ── -->
   <section class="futuro-esg">
     <h2>O Futuro do ESG</h2>
     <p>As tendências futuras apontam para regulamentações mais rigorosas e maior integração com tecnologia, sendo essencial a inovação e transformação digital para medir e reduzir impactos. ESG contribui diretamente para os ODS da ONU, e há uma visão de longo prazo — 2030/2050 — para uma sustentabilidade global cada vez mais robusta, com jovens profissionais desempenhando papel central na transformação sustentável.</p>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <span class="tl-year">2025</span>
+        <p class="tl-desc">Expansão de regulamentações ESG e integração com IA para reporte em tempo real</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <span class="tl-year">2030</span>
+        <p class="tl-desc">Metas ODS — energia limpa universal, redução das desigualdades e fim da pobreza extrema</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <span class="tl-year">2050</span>
+        <p class="tl-desc">Neutralidade carbônica global e cadeias de valor plenamente sustentáveis</p>
+      </div>
+    </div>
   </section>
+
+  <!-- ── SUSTENTABILIDADE NA PRÁTICA ── -->
+  <section class="sustentabilidade-pratica">
+    <h2>Sustentabilidade na Prática: Construindo o Futuro</h2>
+    <div class="visual-split">
+      <div class="visual-text">
+        <p>A sustentabilidade na prática vai além do discurso corporativo. Empresas líderes já constroem suas operações com critérios ambientais integrados: desde a <strong>arquitetura bioclimática</strong> com painéis solares e jardins verticais, até a <strong>gestão hídrica circular</strong>, o uso de <strong>energia 100% renovável</strong> e o <strong>design para desmontagem</strong>.</p>
+        <p style="margin-top:10px;">O conceito de <em>Economia Circular</em> — eliminar resíduos pelo design, manter produtos e materiais em uso e regenerar sistemas naturais — está no centro da transformação ambiental. Empresas que antecipam essa transição reduzem custos operacionais, evitam multas regulatórias e criam vantagem competitiva sustentável.</p>
+        <ul class="icon-list opportunity-list" style="margin-top:10px;">
+          <li>Edifícios com certificação LEED ou AQUA-HQE</li>
+          <li>Transição para frota elétrica e logística verde</li>
+          <li>Metas de emissões net-zero alinhadas ao SBTi</li>
+          <li>Energia 100% renovável via PPAs ou autoprodução solar</li>
+        </ul>
+      </div>
+      <div class="visual-illustration" aria-label="Ilustração de edifício sustentável com jardim no teto e painéis solares">
+        <svg viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg">
+          <rect width="320" height="240" rx="12" fill="#e3f2fd"/>
+          <!-- Sol -->
+          <circle cx="272" cy="42" r="24" fill="#fdd835" opacity="0.9"/>
+          <line x1="272" y1="14" x2="272" y2="6"   stroke="#fdd835" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="248" y1="20" x2="242" y2="14"  stroke="#fdd835" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="298" y1="20" x2="304" y2="14"  stroke="#fdd835" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="240" y1="44" x2="232" y2="44"  stroke="#fdd835" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="306" y1="44" x2="314" y2="44"  stroke="#fdd835" stroke-width="2.5" stroke-linecap="round"/>
+          <!-- Turbina eólica -->
+          <rect x="290" y="110" width="4" height="80" rx="1" fill="#b0bec5"/>
+          <ellipse cx="292" cy="110" rx="3" ry="3" fill="#90a4ae"/>
+          <ellipse cx="292" cy="95" rx="2.5" ry="12" fill="#cfd8dc" transform="rotate(-30 292 110)"/>
+          <ellipse cx="292" cy="95" rx="2.5" ry="12" fill="#cfd8dc" transform="rotate(90 292 110)"/>
+          <ellipse cx="292" cy="95" rx="2.5" ry="12" fill="#cfd8dc" transform="rotate(210 292 110)"/>
+          <!-- Árvores esquerda -->
+          <rect x="14" y="170" width="5" height="50" fill="#795548"/>
+          <ellipse cx="16" cy="158" rx="16" ry="20" fill="#388e3c"/>
+          <ellipse cx="16" cy="150" rx="11" ry="15" fill="#2d9b7e" opacity="0.85"/>
+          <rect x="34" y="185" width="4" height="35" fill="#795548"/>
+          <ellipse cx="36" cy="176" rx="13" ry="16" fill="#388e3c" opacity="0.9"/>
+          <!-- Edifício principal -->
+          <rect x="68" y="74" width="174" height="146" rx="4" fill="#fafafa"/>
+          <!-- Jardim no topo -->
+          <rect x="68" y="64" width="174" height="12" rx="3" fill="#388e3c"/>
+          <ellipse cx="105" cy="62" rx="16" ry="11" fill="#2d9b7e"/>
+          <ellipse cx="150" cy="60" rx="20" ry="13" fill="#1a5f4a" opacity="0.85"/>
+          <ellipse cx="198" cy="62" rx="16" ry="11" fill="#2d9b7e"/>
+          <ellipse cx="232" cy="64" rx="12" ry="8" fill="#388e3c"/>
+          <!-- Painéis solares -->
+          <rect x="88" y="48" width="26" height="14" rx="1" fill="#1565c0" opacity="0.85"/>
+          <line x1="88" y1="55" x2="114" y2="55" stroke="#90caf9" stroke-width="0.8"/>
+          <line x1="101" y1="48" x2="101" y2="62" stroke="#90caf9" stroke-width="0.8"/>
+          <rect x="152" y="46" width="26" height="14" rx="1" fill="#1565c0" opacity="0.85"/>
+          <line x1="152" y1="53" x2="178" y2="53" stroke="#90caf9" stroke-width="0.8"/>
+          <line x1="165" y1="46" x2="165" y2="60" stroke="#90caf9" stroke-width="0.8"/>
+          <!-- Janelas linha 1 -->
+          <rect x="84"  y="92"  width="32" height="26" rx="2" fill="#b2dfdb"/>
+          <rect x="130" y="92"  width="32" height="26" rx="2" fill="#b2dfdb"/>
+          <rect x="176" y="92"  width="32" height="26" rx="2" fill="#b2dfdb"/>
+          <!-- Plantas nas janelas (linha 1) -->
+          <ellipse cx="100" cy="120" rx="10" ry="7" fill="#2d9b7e" opacity="0.85"/>
+          <ellipse cx="146" cy="120" rx="10" ry="7" fill="#1a5f4a" opacity="0.8"/>
+          <ellipse cx="192" cy="120" rx="10" ry="7" fill="#2d9b7e" opacity="0.85"/>
+          <!-- Janelas linha 2 -->
+          <rect x="84"  y="136" width="32" height="26" rx="2" fill="#b2dfdb"/>
+          <rect x="130" y="136" width="32" height="26" rx="2" fill="#b2dfdb"/>
+          <rect x="176" y="136" width="32" height="26" rx="2" fill="#b2dfdb"/>
+          <!-- Plantas nas janelas (linha 2) -->
+          <ellipse cx="100" cy="164" rx="10" ry="7" fill="#1a5f4a" opacity="0.75"/>
+          <ellipse cx="146" cy="164" rx="10" ry="7" fill="#2d9b7e" opacity="0.8"/>
+          <ellipse cx="192" cy="164" rx="10" ry="7" fill="#1a5f4a" opacity="0.75"/>
+          <!-- Porta -->
+          <rect x="130" y="190" width="46" height="30" rx="3" fill="#a0785e"/>
+          <circle cx="170" cy="205" r="2.5" fill="#ffca28"/>
+          <!-- Chão / grama -->
+          <rect x="0" y="208" width="320" height="32" fill="#c8e6c9"/>
+          <ellipse cx="160" cy="208" rx="160" ry="5" fill="#a5d6a7"/>
+          <text x="155" y="232" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="10" fill="#2c3e50" font-weight="600">Arquitetura Sustentável e Eficiência Energética</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PILAR SOCIAL EM AÇÃO ── -->
+  <section class="social-acao">
+    <h2>O Pilar Social em Ação</h2>
+    <div class="visual-split reverse">
+      <div class="visual-text">
+        <p>Organizações que investem genuinamente no pilar Social criam ambientes mais inclusivos, produtivos e resilientes. Isso envolve <strong>diversidade e inclusão</strong> (raça, gênero, geração, deficiência), <strong>equidade salarial</strong>, <strong>saúde e bem-estar</strong> dos colaboradores, desenvolvimento profissional contínuo e participação ativa nas comunidades onde atuam.</p>
+        <p style="margin-top:10px;">Dados da McKinsey mostram que empresas no quartil superior de diversidade de gênero têm <strong>25% mais probabilidade</strong> de superar concorrentes em rentabilidade. Programas de DEI (Diversidade, Equidade e Inclusão) não são apenas éticos — são estrategicamente essenciais para inovação e retenção de talentos.</p>
+        <ul class="icon-list opportunity-list" style="margin-top:10px;">
+          <li>Política formal de diversidade e inclusão (DEI)</li>
+          <li>Auditoria salarial por gênero e raça</li>
+          <li>Programas de saúde mental e bem-estar</li>
+          <li>Engajamento com comunidades locais</li>
+        </ul>
+      </div>
+      <div class="visual-illustration" aria-label="Ilustração de equipe diversa colaborando em reunião">
+        <svg viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg">
+          <rect width="320" height="240" rx="12" fill="#fff8e1"/>
+          <!-- Mesa redonda -->
+          <ellipse cx="160" cy="148" rx="112" ry="46" fill="#d7ccc8"/>
+          <ellipse cx="160" cy="144" rx="110" ry="43" fill="#efebe9"/>
+          <!-- Documentos e laptop na mesa -->
+          <rect x="118" y="129" width="32" height="22" rx="2" fill="#fff" opacity="0.9"/>
+          <rect x="122" y="133" width="20" height="2" rx="1" fill="#bbb"/>
+          <rect x="122" y="137" width="16" height="2" rx="1" fill="#bbb"/>
+          <rect x="122" y="141" width="18" height="2" rx="1" fill="#bbb"/>
+          <rect x="168" y="127" width="28" height="20" rx="2" fill="#e8f5e9" opacity="0.9"/>
+          <rect x="172" y="130" width="18" height="2" rx="1" fill="#2d9b7e" opacity="0.6"/>
+          <rect x="172" y="134" width="14" height="2" rx="1" fill="#2d9b7e" opacity="0.6"/>
+          <!-- Laptop -->
+          <rect x="143" y="120" width="30" height="20" rx="2" fill="#37474f"/>
+          <rect x="145" y="122" width="26" height="16" rx="1" fill="#1565c0" opacity="0.7"/>
+          <rect x="136" y="140" width="44" height="3" rx="1" fill="#546e7a"/>
+          <!-- Pessoa 1 – topo (mulher negra, coordenadora) -->
+          <circle cx="160" cy="82" r="14" fill="#8d6e63"/>
+          <ellipse cx="160" cy="72" rx="14" ry="8" fill="#3e2723"/>
+          <path d="M146 76 Q145 68 160 68 Q175 68 174 76" fill="#3e2723"/>
+          <rect x="148" y="96" width="24" height="18" rx="3" fill="#c62828"/>
+          <!-- Pessoa 2 – esquerda (homem asiático) -->
+          <circle cx="68" cy="126" r="13" fill="#f5cba7"/>
+          <ellipse cx="68" cy="117" rx="12" ry="6" fill="#1a1a2e"/>
+          <rect x="57" y="140" width="22" height="16" rx="3" fill="#1565c0"/>
+          <!-- Pessoa 3 – direita (mulher branca) -->
+          <circle cx="252" cy="126" r="13" fill="#fde0c8"/>
+          <ellipse cx="252" cy="116" rx="13" ry="7" fill="#f9a825"/>
+          <path d="M242 120 Q242 110 252 110 Q262 110 262 120" fill="#f9a825"/>
+          <rect x="241" y="140" width="22" height="16" rx="3" fill="#2e7d32"/>
+          <!-- Pessoa 4 – esq-baixo (homem negro) -->
+          <circle cx="100" cy="170" r="12" fill="#5d4037"/>
+          <ellipse cx="100" cy="161" rx="11" ry="5" fill="#212121"/>
+          <rect x="90" y="182" width="20" height="14" rx="3" fill="#e65100"/>
+          <!-- Pessoa 5 – dir-baixo (mulher latina) -->
+          <circle cx="220" cy="170" r="12" fill="#d4a483"/>
+          <ellipse cx="220" cy="160" rx="12" ry="6" fill="#4a148c"/>
+          <path d="M210 164 Q210 156 220 156 Q230 156 230 164" fill="#4a148c"/>
+          <rect x="210" y="182" width="20" height="14" rx="3" fill="#6a1b9a"/>
+          <!-- Conectores de colaboração -->
+          <circle cx="126" cy="116" r="5" fill="#2d9b7e" opacity="0.35"/>
+          <circle cx="194" cy="116" r="5" fill="#2d9b7e" opacity="0.35"/>
+          <circle cx="138" cy="160" r="4" fill="#f39c12" opacity="0.35"/>
+          <circle cx="182" cy="160" r="4" fill="#f39c12" opacity="0.35"/>
+          <text x="160" y="228" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="10" fill="#2c3e50" font-weight="600">Diversidade, Equidade e Inclusão (DEI)</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FRAMEWORKS E PADRÕES ESG ── -->
+  <section class="frameworks-esg">
+    <h2>Frameworks e Padrões de Reporte ESG</h2>
+    <p>Para que o reporte ESG seja confiável e comparável, diversas organizações desenvolveram frameworks internacionais. Selecione cada aba para conhecer os principais:</p>
+    <div class="tab-wrapper" data-tabs="frameworks">
+      <div class="tab-nav" role="tablist" aria-label="Frameworks ESG">
+        <button class="tab-btn active" role="tab" data-tab="gri"   aria-selected="true"  aria-controls="tab-gri">GRI</button>
+        <button class="tab-btn" role="tab" data-tab="sasb"  aria-selected="false" aria-controls="tab-sasb">SASB / ISSB</button>
+        <button class="tab-btn" role="tab" data-tab="tcfd"  aria-selected="false" aria-controls="tab-tcfd">TCFD</button>
+        <button class="tab-btn" role="tab" data-tab="eutax" aria-selected="false" aria-controls="tab-eutax">EU Taxonomia</button>
+        <button class="tab-btn" role="tab" data-tab="ise"   aria-selected="false" aria-controls="tab-ise">ISE B3</button>
+        <button class="tab-btn" role="tab" data-tab="iso"   aria-selected="false" aria-controls="tab-iso">ISO</button>
+      </div>
+      <div class="tab-panels">
+
+        <div class="tab-panel active" id="tab-gri" role="tabpanel" tabindex="0">
+          <span class="framework-badge">Global Reporting Initiative</span>
+          <h3>GRI — O Padrão Global Mais Utilizado</h3>
+          <p>O GRI é o framework mais amplamente adotado no mundo, presente em mais de 73 países. Ele oferece um conjunto de padrões modulares que permitem às organizações divulgar seus impactos em tópicos econômicos, ambientais e sociais materiais. A última versão (GRI Universal Standards 2021) estrutura o reporte em três séries: Universais, Setoriais e Temáticos.</p>
+          <ul class="kpi-list">
+            <li><span class="kpi-icon">🌍</span><span><strong>Alcance:</strong> +10.000 organizações relatoras em 100+ países</span></li>
+            <li><span class="kpi-icon">📋</span><span><strong>Estrutura:</strong> GRI 1 (Fundamentos), GRI 2 (Geral), GRI 3 (Tópicos Materiais), Séries 200–400</span></li>
+            <li><span class="kpi-icon">✅</span><span><strong>Vantagem:</strong> Alta comparabilidade e reconhecimento global por investidores e reguladores</span></li>
+            <li><span class="kpi-icon">🇧🇷</span><span><strong>No Brasil:</strong> Amplamente usado por empresas listadas na B3 e adotado por exigência da CVM (Resolução 193/2023)</span></li>
+          </ul>
+        </div>
+
+        <div class="tab-panel" id="tab-sasb" role="tabpanel" tabindex="0">
+          <span class="framework-badge">SASB / ISSB — IFRS Foundation</span>
+          <h3>SASB / ISSB — Foco em Materialidade Financeira</h3>
+          <p>O SASB (Sustainability Accounting Standards Board) desenvolveu padrões para 77 setores industriais com métricas específicas financeiramente materiais. Em 2022, foi incorporado pelo ISSB (International Sustainability Standards Board), da IFRS Foundation, que publicou as normas IFRS S1 e IFRS S2 em 2023 — marcando o início de uma padronização global equivalente às normas contábeis.</p>
+          <ul class="kpi-list">
+            <li><span class="kpi-icon">📊</span><span><strong>IFRS S1:</strong> Requisitos gerais de divulgação de informações sobre sustentabilidade</span></li>
+            <li><span class="kpi-icon">🌡️</span><span><strong>IFRS S2:</strong> Divulgações específicas sobre riscos e oportunidades relacionadas ao clima</span></li>
+            <li><span class="kpi-icon">💼</span><span><strong>Foco:</strong> Materialidade financeira — impacto da sustentabilidade nos resultados da empresa</span></li>
+            <li><span class="kpi-icon">🇧🇷</span><span><strong>No Brasil:</strong> CVM e BACEN avaliam adoção das IFRS S1/S2 para empresas abertas e instituições financeiras</span></li>
+          </ul>
+        </div>
+
+        <div class="tab-panel" id="tab-tcfd" role="tabpanel" tabindex="0">
+          <span class="framework-badge">Task Force on Climate-related Financial Disclosures</span>
+          <h3>TCFD — Riscos e Oportunidades Climáticas</h3>
+          <p>Criado pelo Financial Stability Board em 2015, o TCFD desenvolveu recomendações para divulgação de informações financeiras relacionadas ao clima. Suas recomendações foram incorporadas pelas IFRS S2 e são exigidas em 40+ jurisdições, incluindo Reino Unido, UE, Japão e Nova Zelândia. Organizado em 4 pilares fundamentais:</p>
+          <ul class="kpi-list">
+            <li><span class="kpi-icon">🏛️</span><span><strong>Governança:</strong> Supervisão do conselho e gestão executiva sobre riscos climáticos</span></li>
+            <li><span class="kpi-icon">🎯</span><span><strong>Estratégia:</strong> Impactos de riscos/oportunidades climáticas e análise de cenários 1,5°C / 2°C</span></li>
+            <li><span class="kpi-icon">⚙️</span><span><strong>Gestão de Riscos:</strong> Processos de identificação, avaliação e gestão de riscos físicos e de transição</span></li>
+            <li><span class="kpi-icon">📏</span><span><strong>Métricas e Metas:</strong> KPIs para monitorar riscos/oportunidades e metas de redução de emissões de GEE</span></li>
+          </ul>
+        </div>
+
+        <div class="tab-panel" id="tab-eutax" role="tabpanel" tabindex="0">
+          <span class="framework-badge">Regulamento UE 2020/852</span>
+          <h3>EU Taxonomia — Classificação de Atividades Sustentáveis</h3>
+          <p>A Taxonomia da UE é um sistema de classificação que define quais atividades econômicas podem ser consideradas ambientalmente sustentáveis. Obrigatória para grandes empresas e fundos de investimento que atuam na União Europeia, estabelece 6 objetivos ambientais e critérios de triagem DNSH (Do No Significant Harm):</p>
+          <ul class="kpi-list">
+            <li><span class="kpi-icon">🌡️</span><span><strong>1.</strong> Mitigação das alterações climáticas</span></li>
+            <li><span class="kpi-icon">🌊</span><span><strong>2.</strong> Adaptação às alterações climáticas</span></li>
+            <li><span class="kpi-icon">💧</span><span><strong>3.</strong> Uso sustentável e proteção de recursos hídricos e marinhos</span></li>
+            <li><span class="kpi-icon">♻️</span><span><strong>4.</strong> Transição para uma economia circular</span></li>
+            <li><span class="kpi-icon">🌱</span><span><strong>5.</strong> Prevenção e controle da poluição</span></li>
+            <li><span class="kpi-icon">🌳</span><span><strong>6.</strong> Proteção e restauração da biodiversidade e dos ecossistemas</span></li>
+          </ul>
+        </div>
+
+        <div class="tab-panel" id="tab-ise" role="tabpanel" tabindex="0">
+          <span class="framework-badge">B3 — Brasil, Bolsa, Balcão</span>
+          <h3>ISE B3 — Índice de Sustentabilidade Empresarial</h3>
+          <p>O ISE B3 é o principal índice ESG do mercado de capitais brasileiro, lançado em dezembro de 2005 como o <strong>quarto índice de sustentabilidade do mundo</strong> — depois do Dow Jones Sustainability Index (EUA), do FTSE4Good (Reino Unido) e do JSE SRI (África do Sul). Criado pela B3 em parceria com o IFC (International Finance Corporation, braço do Banco Mundial), o ISE avalia e seleciona anualmente as empresas listadas com as melhores práticas de sustentabilidade corporativa, formando um portfólio de referência para investidores.</p>
+          <p style="margin-top:10px;">A entrada no índice é voluntária e passa por um processo rigoroso: as empresas respondem um questionário multidimensional desenvolvido pela FGV-EAESP, são avaliadas por um Conselho Deliberativo composto por 12 instituições e têm seus dados verificados por auditoria independente. O processo ocorre anualmente entre julho e dezembro.</p>
+          <ul class="kpi-list">
+            <li><span class="kpi-icon">📐</span><span><strong>7 Dimensões avaliadas:</strong> Econômico-financeira, Capital Humano, Ambiental, Social, Governança Corporativa, Natureza do Produto e Mudanças Climáticas</span></li>
+            <li><span class="kpi-icon">📋</span><span><strong>Metodologia:</strong> Questionário com mais de 100 perguntas quantitativas e qualitativas, ponderadas por dimensão e setor</span></li>
+            <li><span class="kpi-icon">📈</span><span><strong>Portfólio:</strong> Até 40 empresas participantes, reavaliadas e recompostas anualmente em dezembro</span></li>
+            <li><span class="kpi-icon">💰</span><span><strong>Performance financeira:</strong> Historicamente supera o Ibovespa em retorno ajustado ao risco — comprova que ESG e rentabilidade são complementares</span></li>
+            <li><span class="kpi-icon">🌱</span><span><strong>ICO2 B3:</strong> Índice complementar focado exclusivamente em emissões de gases de efeito estufa; empresas participantes divulgam inventário GEE e se comprometem com metas de redução</span></li>
+            <li><span class="kpi-icon">🏛️</span><span><strong>IGCX:</strong> Índice de Governança Corporativa da B3, complementar ao ISE, focado especificamente em boas práticas de gestão e transparência</span></li>
+            <li><span class="kpi-icon">🤝</span><span><strong>Conselho Deliberativo:</strong> FGVCES, IBASE, Instituto Ethos, MMA, Ministério da Fazenda, ANBIMA, Apimec, Abrapp, IBGC, Anefac, CVM e B3</span></li>
+            <li><span class="kpi-icon">🇧🇷</span><span><strong>Referência regulatória:</strong> A CVM (Resolução 193/2023) e o BACEN referenciam o ISE B3 como parâmetro de boas práticas ESG para o mercado de capitais brasileiro</span></li>
+          </ul>
+        </div>
+
+        <div class="tab-panel" id="tab-iso" role="tabpanel" tabindex="0">
+          <span class="framework-badge">International Organization for Standardization</span>
+          <h3>Família ISO para ESG: 26000, 14001, 45001 e 50001</h3>
+          <p>A ISO (International Organization for Standardization) publicou um conjunto de normas que cobrem as três dimensões do ESG. Ao contrário do GRI — que é um framework de reporte —, as normas ISO são <strong>sistemas de gestão certificáveis</strong>: uma empresa pode contratar uma auditoria de terceira parte (como Bureau Veritas, SGS ou DNV) e obter um certificado reconhecido globalmente, válido por 3 anos com auditorias de manutenção anuais.</p>
+
+          <p style="margin-top:10px;"><strong>ISO 26000:2010 — Responsabilidade Social</strong></p>
+          <p>Norma de diretrizes (não certificável) que define 7 princípios de responsabilidade social e 6 temas centrais. É a base conceitual para a ABNT NBR 2030:</p>
+          <ul class="kpi-list">
+            <li><span class="kpi-icon">⚖️</span><span><strong>7 Princípios:</strong> Accountability, Transparência, Comportamento ético, Respeito por stakeholders, Respeito pela legalidade, Normas internacionais de comportamento e Direitos humanos</span></li>
+            <li><span class="kpi-icon">🗂️</span><span><strong>6 Temas centrais:</strong> Governança organizacional, Direitos humanos, Práticas trabalhistas, Meio ambiente, Práticas leais de operação, Questões dos consumidores e Envolvimento com a comunidade</span></li>
+          </ul>
+
+          <p style="margin-top:12px;"><strong>ISO 14001:2015 — Sistema de Gestão Ambiental (SGA)</strong></p>
+          <p>Norma certificável mais adotada globalmente para gestão ambiental. Baseada no ciclo PDCA (Plan-Do-Check-Act), exige que a organização identifique aspectos ambientais, cumpra requisitos legais e melhore continuamente seu desempenho:</p>
+          <ul class="kpi-list">
+            <li><span class="kpi-icon">🔍</span><span><strong>Planejamento:</strong> Levantamento de aspectos e impactos ambientais, riscos e oportunidades, objetivos e metas com planos de ação</span></li>
+            <li><span class="kpi-icon">⚙️</span><span><strong>Implementação:</strong> Controles operacionais, gestão de emergências ambientais, treinamento e comunicação</span></li>
+            <li><span class="kpi-icon">📊</span><span><strong>Monitoramento:</strong> Medição de indicadores ambientais, auditorias internas e análise crítica pela direção</span></li>
+            <li><span class="kpi-icon">🌍</span><span><strong>Adoção:</strong> +300.000 certificados ativos em 180+ países; exigida por muitas cadeias de fornecimento globais</span></li>
+          </ul>
+
+          <ul class="kpi-list" style="margin-top:12px;">
+            <li><span class="kpi-icon">🦺</span><span><strong>ISO 45001:2018</strong> — Saúde e Segurança Ocupacional: sistema certificável para prevenção de lesões e doenças do trabalho; substitui a OHSAS 18001 e complementa o pilar Social do ESG</span></li>
+            <li><span class="kpi-icon">🔋</span><span><strong>ISO 50001:2018</strong> — Gestão de Energia: melhoria contínua do desempenho energético, redução de custos e emissões de GEE; alinhada às metas de descarbonização corporativa</span></li>
+            <li><span class="kpi-icon">🇧🇷</span><span><strong>ABNT NBR 2030:2023</strong> — adaptação brasileira da ISO 26000; referência nacional para gestão da sustentabilidade nas organizações, alinhada ao contexto regulatório e cultural do Brasil</span></li>
+            <li><span class="kpi-icon">🔗</span><span><strong>Integração com GRI:</strong> A ISO 14001 e a ISO 45001 alimentam diretamente os tópicos materiais GRI 300 (Ambiental) e GRI 400 (Social), facilitando o reporte integrado</span></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── KPIS POR SETOR ── -->
+  <section class="kpis-setor">
+    <h2>KPIs ESG por Setor</h2>
+    <p>Cada setor possui indicadores-chave de desempenho (KPIs) específicos para mensurar seu impacto ESG. Selecione o setor:</p>
+    <div class="tab-wrapper" data-tabs="kpis">
+      <div class="tab-nav" role="tablist" aria-label="KPIs ESG por setor">
+        <button class="tab-btn active" role="tab" data-tab="financeiro" aria-selected="true"  aria-controls="tab-financeiro">Financeiro</button>
+        <button class="tab-btn" role="tab" data-tab="industrial"  aria-selected="false" aria-controls="tab-industrial">Industrial</button>
+        <button class="tab-btn" role="tab" data-tab="tecnologia"  aria-selected="false" aria-controls="tab-tecnologia">Tecnologia</button>
+        <button class="tab-btn" role="tab" data-tab="energia"     aria-selected="false" aria-controls="tab-energia">Energia</button>
+        <button class="tab-btn" role="tab" data-tab="publico"     aria-selected="false" aria-controls="tab-publico">Setor Público</button>
+      </div>
+      <div class="tab-panels">
+
+        <div class="tab-panel active" id="tab-financeiro" role="tabpanel" tabindex="0">
+          <h3>Setor Financeiro — Bancos e Seguradoras</h3>
+          <ul class="kpi-list">
+            <li><span class="kpi-icon">🌱</span><span><strong>Intensidade de carbono financiado:</strong> tCO₂e por R$1 milhão emprestado/investido</span></li>
+            <li><span class="kpi-icon">💚</span><span><strong>% portfólio verde:</strong> proporção de financiamentos em atividades sustentáveis (ex: crédito rural, energia renovável)</span></li>
+            <li><span class="kpi-icon">🏘️</span><span><strong>Taxa de inclusão financeira:</strong> % de clientes em regiões de baixa renda atendidos por produtos bancários</span></li>
+            <li><span class="kpi-icon">⚖️</span><span><strong>Índice de equidade salarial:</strong> razão entre remuneração de homens e mulheres por nível e função</span></li>
+            <li><span class="kpi-icon">🛡️</span><span><strong>Exposição a ativos stranded:</strong> % de portfólio em setores de alto risco climático (carvão, petróleo, gás)</span></li>
+            <li><span class="kpi-icon">📊</span><span><strong>Score de governança:</strong> avaliação de práticas de conselho, auditoria, transparência e compliance</span></li>
+          </ul>
+        </div>
+
+        <div class="tab-panel" id="tab-industrial" role="tabpanel" tabindex="0">
+          <h3>Setor Industrial e Manufatura</h3>
+          <ul class="kpi-list">
+            <li><span class="kpi-icon">⚡</span><span><strong>Intensidade energética:</strong> GJ por tonelada produzida — meta de redução anual</span></li>
+            <li><span class="kpi-icon">💧</span><span><strong>Taxa de reaproveitamento de água:</strong> % de água reciclada no processo produtivo</span></li>
+            <li><span class="kpi-icon">♻️</span><span><strong>Taxa de desvio de resíduos de aterro:</strong> % de resíduos reciclados, reutilizados ou valorizados</span></li>
+            <li><span class="kpi-icon">🚑</span><span><strong>TRIR:</strong> Taxa de Incidência de Lesões — acidentes por 200.000 horas trabalhadas</span></li>
+            <li><span class="kpi-icon">🌫️</span><span><strong>Emissões de GEE Escopos 1 e 2:</strong> tCO₂e por unidade produzida</span></li>
+            <li><span class="kpi-icon">🔗</span><span><strong>% fornecedores auditados ESG:</strong> cobertura socioambiental da cadeia de valor</span></li>
+          </ul>
+        </div>
+
+        <div class="tab-panel" id="tab-tecnologia" role="tabpanel" tabindex="0">
+          <h3>Setor de Tecnologia</h3>
+          <ul class="kpi-list">
+            <li><span class="kpi-icon">🖥️</span><span><strong>PUE (Power Usage Effectiveness):</strong> eficiência energética dos datacenters (meta: próximo de 1,0)</span></li>
+            <li><span class="kpi-icon">🔋</span><span><strong>% energia renovável consumida:</strong> cobertura das operações por fontes limpas</span></li>
+            <li><span class="kpi-icon">👩‍💻</span><span><strong>% mulheres em cargos técnicos e liderança:</strong> diversidade de gênero em STEM</span></li>
+            <li><span class="kpi-icon">🌐</span><span><strong>Diversidade étnico-racial:</strong> representatividade em todos os níveis hierárquicos</span></li>
+            <li><span class="kpi-icon">🔒</span><span><strong>Incidentes de violação de dados:</strong> frequência, impacto e tempo de resposta (LGPD / GDPR)</span></li>
+            <li><span class="kpi-icon">🛡️</span><span><strong>% fornecedores com cláusulas ESG:</strong> exigência de critérios socioambientais na cadeia de suprimentos</span></li>
+          </ul>
+        </div>
+
+        <div class="tab-panel" id="tab-energia" role="tabpanel" tabindex="0">
+          <h3>Setor de Energia e Utilities</h3>
+          <ul class="kpi-list">
+            <li><span class="kpi-icon">☀️</span><span><strong>% capacidade instalada renovável:</strong> proporção da matriz energética limpa</span></li>
+            <li><span class="kpi-icon">💨</span><span><strong>Emissões de GEE por kWh gerado:</strong> intensidade de carbono da geração elétrica</span></li>
+            <li><span class="kpi-icon">🌊</span><span><strong>Eficiência hídrica:</strong> volume de água captada por MWh gerado</span></li>
+            <li><span class="kpi-icon">🏘️</span><span><strong>Índice de acesso universal:</strong> % de domicílios com acesso a energia elétrica e saneamento</span></li>
+            <li><span class="kpi-icon">⏱️</span><span><strong>DEC/FEC:</strong> duração e frequência de interrupções — indicador de qualidade e confiabilidade do serviço</span></li>
+            <li><span class="kpi-icon">📉</span><span><strong>Meta de descarbonização:</strong> trajetória de redução de emissões alinhada a 1,5°C (SBTi)</span></li>
+          </ul>
+        </div>
+
+        <div class="tab-panel" id="tab-publico" role="tabpanel" tabindex="0">
+          <h3>Setor Público e Governo</h3>
+          <ul class="kpi-list">
+            <li><span class="kpi-icon">📢</span><span><strong>Índice de Transparência:</strong> pontuação em portais de transparência ativa e dados abertos</span></li>
+            <li><span class="kpi-icon">🏫</span><span><strong>Gasto per capita em educação e saúde:</strong> investimento social efetivo e seus resultados</span></li>
+            <li><span class="kpi-icon">🌿</span><span><strong>Emissões de GEE per capita:</strong> pegada de carbono da administração pública e território</span></li>
+            <li><span class="kpi-icon">📦</span><span><strong>% compras públicas sustentáveis:</strong> critérios ESG em licitações e contratos governamentais</span></li>
+            <li><span class="kpi-icon">⚖️</span><span><strong>IDH Municipal:</strong> Índice de Desenvolvimento Humano como proxy do impacto de políticas públicas</span></li>
+            <li><span class="kpi-icon">🌳</span><span><strong>% de áreas verdes por habitante:</strong> qualidade de vida urbana, biodiversidade e clima</span></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROCESSO DE REPORTE ESG ── -->
+  <section class="processo-reporte">
+    <h2>Processo de Reporte ESG</h2>
+    <p>O reporte ESG segue uma jornada estruturada de seis etapas que garantem credibilidade, relevância e transparência das informações divulgadas:</p>
+    <div class="processo-steps">
+      <div class="step-item">
+        <div class="step-num" aria-hidden="true">1</div>
+        <div class="step-content">
+          <h3>Diagnóstico Inicial</h3>
+          <p>Levantamento do estado atual das práticas ESG, identificação de lacunas e benchmarking com o setor e peers.</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-num" aria-hidden="true">2</div>
+        <div class="step-content">
+          <h3>Análise de Materialidade</h3>
+          <p>Identificação dos tópicos ESG mais relevantes para os negócios e stakeholders via pesquisas e entrevistas.</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-num" aria-hidden="true">3</div>
+        <div class="step-content">
+          <h3>Coleta de Dados</h3>
+          <p>Estruturação de sistemas de coleta de dados qualitativos e quantitativos para todos os KPIs identificados.</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-num" aria-hidden="true">4</div>
+        <div class="step-content">
+          <h3>Análise e Validação</h3>
+          <p>Cálculo de indicadores, análise de tendências e verificação interna com as áreas responsáveis pela gestão ESG.</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-num" aria-hidden="true">5</div>
+        <div class="step-content">
+          <h3>Publicação do Relatório</h3>
+          <p>Elaboração do relatório de sustentabilidade conforme framework escolhido (GRI, IFRS S1/S2 etc.) e publicação.</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-num" aria-hidden="true">6</div>
+        <div class="step-content">
+          <h3>Verificação Independente</h3>
+          <p>Asseguração por auditoria externa (limited ou reasonable assurance) para aumentar a credibilidade do reporte.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── RISCO DE GREENWASHING ── -->
+  <section class="greenwashing-section">
+    <h2>Riscos de Greenwashing e Greenhushing</h2>
+    <div class="greenwashing-grid">
+      <div class="gw-card warning">
+        <h3>O que é Greenwashing?</h3>
+        <p>Greenwashing é a prática de comunicar compromissos ou ações ambientais de forma enganosa, exagerada ou sem substância real. Envolve desde alegações vagas ("eco-friendly", "sustentável") até divulgação seletiva que omite impactos negativos. Pode resultar em <strong>sanções regulatórias, danos reputacionais e processos judiciais</strong>.</p>
+      </div>
+      <div class="gw-card info">
+        <h3>O que é Greenhushing?</h3>
+        <p>Tendência oposta: empresas com iniciativas ESG genuínas optam por <strong>não divulgá-las</strong> por medo de escrutínio ou acusações de greenwashing. Embora compreensível, o greenhushing prejudica a transparência do mercado e a capacidade dos investidores de tomar decisões informadas.</p>
+      </div>
+      <div class="gw-card check">
+        <h3>Sinais de Alerta</h3>
+        <ul>
+          <li>Linguagem vaga e sem métricas verificáveis</li>
+          <li>Metas sem prazo ou plano de ação concreto</li>
+          <li>Foco em aspecto positivo, ignorando impactos negativos</li>
+          <li>Ausência de verificação independente de terceiros</li>
+          <li>Dados incompatíveis com o porte e setor da empresa</li>
+          <li>Certificações falsas ou sem credibilidade reconhecida</li>
+        </ul>
+      </div>
+      <div class="gw-card tip">
+        <h3>Como Evitar</h3>
+        <ul>
+          <li>Adote frameworks reconhecidos (GRI, IFRS S1/S2) para estruturar o reporte</li>
+          <li>Defina metas SMART: específicas, mensuráveis, alcançáveis, relevantes e temporais</li>
+          <li>Contrate asseguração independente (Big Four ou firmas especializadas)</li>
+          <li>Divulgue dados negativos com honestidade e planos de melhoria</li>
+          <li>Implemente governança ESG com responsabilidades claras no conselho</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CHECKLIST DE IMPLEMENTAÇÃO ESG ── -->
+  <section class="checklist-section">
+    <h2>Checklist de Implementação ESG</h2>
+    <p>Marque os itens concluídos para acompanhar o progresso da sua organização na jornada ESG:</p>
+    <div class="checklist-progress">
+      <div class="checklist-bar-wrap" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Progresso do checklist ESG">
+        <div class="checklist-bar" id="checklist-bar"></div>
+      </div>
+      <span class="checklist-count" id="checklist-count">0 / 14 itens concluídos</span>
+    </div>
+    <ul class="checklist" id="esg-checklist">
+      <li><label><input type="checkbox"> Realizar diagnóstico de materialidade com stakeholders</label></li>
+      <li><label><input type="checkbox"> Definir framework de reporte (GRI, IFRS S1/S2, TCFD)</label></li>
+      <li><label><input type="checkbox"> Mapear e quantificar emissões de GEE (Escopos 1, 2 e 3)</label></li>
+      <li><label><input type="checkbox"> Estabelecer metas de redução de carbono com prazo definido</label></li>
+      <li><label><input type="checkbox"> Implantar política formal de diversidade, equidade e inclusão (DEI)</label></li>
+      <li><label><input type="checkbox"> Implementar canal de denúncias eficaz e anônimo</label></li>
+      <li><label><input type="checkbox"> Compor conselho com pelo menos 30% de diversidade de gênero</label></li>
+      <li><label><input type="checkbox"> Auditar cadeia de fornecedores com critérios socioambientais</label></li>
+      <li><label><input type="checkbox"> Publicar relatório de sustentabilidade anual</label></li>
+      <li><label><input type="checkbox"> Obter asseguração independente para dados ESG</label></li>
+      <li><label><input type="checkbox"> Adotar ou iniciar certificação ISO 14001</label></li>
+      <li><label><input type="checkbox"> Mapear riscos físicos e de transição climática (TCFD)</label></li>
+      <li><label><input type="checkbox"> Treinar lideranças e conselho sobre riscos ESG</label></li>
+      <li><label><input type="checkbox"> Definir KPIs setoriais e implementar monitoramento contínuo</label></li>
+    </ul>
+  </section>
+
+  <!-- ── FERRAMENTAS E PLATAFORMAS ESG ── -->
+  <section class="ferramentas-esg">
+    <h2>Ferramentas e Plataformas ESG</h2>
+    <p>O mercado oferece diversas soluções tecnológicas para coleta, gestão, análise e reporte de dados ESG:</p>
+    <div class="tools-grid">
+      <div class="tool-card">
+        <div class="tool-card-header">
+          <div class="tool-icon" style="background:#1a5f4a;">SE</div>
+          <h3>SoftExpert ESG</h3>
+        </div>
+        <p>Plataforma nacional para gestão integrada de indicadores ESG com automação de coleta, relatórios GRI e dashboards de desempenho. Amplamente utilizada por empresas brasileiras.</p>
+        <span class="tool-tag">Gestão Integrada</span>
+      </div>
+      <div class="tool-card">
+        <div class="tool-card-header">
+          <div class="tool-icon" style="background:#1565c0;">WK</div>
+          <h3>Workiva</h3>
+        </div>
+        <p>Solução global líder para reporte ESG e financeiro integrado, com suporte a GRI, SASB, TCFD e IFRS S1/S2. Focada em grandes corporações e verificação de dados.</p>
+        <span class="tool-tag">Reporte Global</span>
+      </div>
+      <div class="tool-card">
+        <div class="tool-card-header">
+          <div class="tool-icon" style="background:#e65100;">IB</div>
+          <h3>IBM Envizi</h3>
+        </div>
+        <p>Plataforma IBM para gestão de dados ambientais (energia, emissões, água, resíduos) com IA embutida para análise preditiva e reporte automatizado para frameworks globais.</p>
+        <span class="tool-tag">Dados Ambientais + IA</span>
+      </div>
+      <div class="tool-card">
+        <div class="tool-card-header">
+          <div class="tool-icon" style="background:#388e3c;">GR</div>
+          <h3>Greenly</h3>
+        </div>
+        <p>Plataforma especializada em cálculo e gestão da pegada de carbono (Escopos 1, 2 e 3) com integração automática a sistemas contábeis e ERP, ideal para PMEs.</p>
+        <span class="tool-tag">Pegada de Carbono</span>
+      </div>
+      <div class="tool-card">
+        <div class="tool-card-header">
+          <div class="tool-icon" style="background:#6a1b9a;">PB</div>
+          <h3>Power BI ESG</h3>
+        </div>
+        <p>Microsoft Power BI com templates ESG para visualização de KPIs ambientais, sociais e de governança em tempo real, integrado ao ecossistema Microsoft 365 e Azure.</p>
+        <span class="tool-tag">Business Intelligence</span>
+      </div>
+      <div class="tool-card">
+        <div class="tool-card-header">
+          <div class="tool-icon" style="background:#c62828;">TO</div>
+          <h3>TOTVS ESG</h3>
+        </div>
+        <p>Módulo ESG da maior empresa de software de gestão do Brasil. Integrado ao ERP TOTVS, coleta dados operacionais automaticamente para geração de relatórios de sustentabilidade.</p>
+        <span class="tool-tag">ERP Nacional</span>
+      </div>
+    </div>
+  </section>
+
 </section>
