@@ -2,7 +2,7 @@
 (function () {
   const { qs, formatPercent } = window.utils;
 
-  // Pool completo — 10 aleatórios são selecionados por sessão
+  // Pool completo - 10 aleatórios são selecionados por sessão
   const ALL_QUESTIONS = [
     /* ── Fundamentos ESG ── */
     { q: 'O que significa a sigla ESG?', options: ['Economia, Sustentabilidade e Governança', 'Ambiental, Social e Governança', 'Estratégia, Sustentabilidade e Governança', 'Energia, Saúde e Gestão'], answer: 1 },
@@ -18,7 +18,7 @@
 
     /* ── Frameworks e Padrões ── */
     { q: 'Qual framework ESG é o mais utilizado globalmente, presente em 73+ países?', options: ['TCFD', 'SASB', 'GRI (Global Reporting Initiative)', 'EU Taxonomia'], answer: 2 },
-    { q: 'O que é o TCFD?', options: ['Um índice de ações sustentáveis', 'Task Force on Climate-related Financial Disclosures — reporte de riscos climáticos', 'Um tipo de certificação ambiental', 'Uma norma ISO de gestão de energia'], answer: 1 },
+    { q: 'O que é o TCFD?', options: ['Um índice de ações sustentáveis', 'Task Force on Climate-related Financial Disclosures - reporte de riscos climáticos', 'Um tipo de certificação ambiental', 'Uma norma ISO de gestão de energia'], answer: 1 },
     { q: 'O SASB foi incorporado por qual organização em 2022?', options: ['GRI', 'ONU', 'ISSB / IFRS Foundation', 'Banco Mundial'], answer: 2 },
     { q: 'O ISE B3 é o índice de sustentabilidade de qual bolsa de valores?', options: ['NYSE', 'B3 (Brasil, Bolsa, Balcão)', 'Nasdaq', 'Bolsa de Frankfurt'], answer: 1 },
     { q: 'Qual norma ISO trata de Responsabilidade Social Organizacional?', options: ['ISO 9001', 'ISO 14001', 'ISO 26000', 'ISO 50001'], answer: 2 },
@@ -27,9 +27,9 @@
     { q: 'Qual resolução da CVM estabeleceu exigências de reporte ESG para empresas brasileiras?', options: ['Resolução 193/2023', 'Resolução 100/2021', 'Resolução 40/2019', 'Resolução 250/2024'], answer: 0 },
 
     /* ── KPIs e Setores ── */
-    { q: 'O que significa o indicador PUE em datacenters?', options: ['Percentual de Uso de Energia', 'Power Usage Effectiveness — mede eficiência energética', 'Potência Útil Estimada', 'Protocolo de Uso de Eletricidade'], answer: 1 },
+    { q: 'O que significa o indicador PUE em datacenters?', options: ['Percentual de Uso de Energia', 'Power Usage Effectiveness - mede eficiência energética', 'Potência Útil Estimada', 'Protocolo de Uso de Eletricidade'], answer: 1 },
     { q: 'O que são "emissões de Escopo 3" em ESG?', options: ['Emissões diretas das caldeiras da empresa', 'Emissões da energia elétrica comprada', 'Emissões indiretas da cadeia de valor (fornecedores e clientes)', 'Emissões de veículos da frota própria'], answer: 2 },
-    { q: 'O que é o TRIR no setor industrial?', options: ['Taxa de Retorno de Investimento Renovável', 'Taxa de Incidência de Lesões — acidentes por 200.000 horas trabalhadas', 'Total de Resíduos Industriais Reciclados', 'Tempo de Resposta em Incidentes de Risco'], answer: 1 },
+    { q: 'O que é o TRIR no setor industrial?', options: ['Taxa de Retorno de Investimento Renovável', 'Taxa de Incidência de Lesões - acidentes por 200.000 horas trabalhadas', 'Total de Resíduos Industriais Reciclados', 'Tempo de Resposta em Incidentes de Risco'], answer: 1 },
     { q: 'No setor financeiro, o que mede a "intensidade de carbono financiado"?', options: ['O consumo de energia dos escritórios do banco', 'tCO₂e por R$1 milhão emprestado/investido', 'O número de projetos verdes aprovados', 'A área de vegetação em torno das agências'], answer: 1 },
 
     /* ── Greenwashing e Boas Práticas ── */
@@ -62,7 +62,7 @@
   const SCORE_LEVELS = [
     { min: 90, cls: 'excellent', title: 'Excelente',         msg: pct => `Parabéns! Você acertou ${pct} das questões.` },
     { min: 70, cls: 'verygood',  title: 'Muito bom',         msg: pct => `Muito bom! Você obteve ${pct} de acerto.` },
-    { min: 50, cls: 'good',      title: 'Bom',               msg: pct => `Bom trabalho — ${pct}. Recomendamos revisar alguns tópicos.` },
+    { min: 50, cls: 'good',      title: 'Bom',               msg: pct => `Bom trabalho - ${pct}. Recomendamos revisar alguns tópicos.` },
     { min:  0, cls: 'low',       title: 'Continue estudando', msg: pct => `Você obteve ${pct}. Tente novamente para melhorar seu desempenho.` }
   ];
 

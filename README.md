@@ -1,6 +1,6 @@
-# Projeto ESG — Aplicação Web Educacional
+# Projeto ESG - Aplicação Web Educacional
 
-Aplicação web educacional sobre **ESG** (Ambiental, Social e Governança) desenvolvida como APS para a UNIP — Universidade Paulista (RA: G957AD3).
+Aplicação web educacional sobre **ESG** (Ambiental, Social e Governança) desenvolvida como APS para a UNIP - Universidade Paulista (RA: G957AD3).
 
 ---
 
@@ -14,26 +14,26 @@ Aplicação web educacional sobre **ESG** (Ambiental, Social e Governança) dese
 - Seção de Desafios e Oportunidades com listas visuais
 - Timeline do futuro do ESG (2025 → 2030 → 2050)
 - Ilustração SVG de **arquitetura sustentável** (edifício com painéis solares e jardim vertical)
-- Ilustração SVG de **equipe diversa** (DEI — Diversidade, Equidade e Inclusão)
+- Ilustração SVG de **equipe diversa** (DEI - Diversidade, Equidade e Inclusão)
 
 ### Frameworks e Padrões ESG (abas interativas)
 Seis abas com conteúdo completo sobre cada framework:
-- **GRI** — Global Reporting Initiative (padrão mais adotado mundialmente)
-- **SASB / ISSB** — IFRS S1 e S2 (materialidade financeira)
-- **TCFD** — Task Force on Climate-related Financial Disclosures (4 pilares)
-- **EU Taxonomia** — 6 objetivos ambientais, Regulamento UE 2020/852
-- **ISE B3** — Índice de Sustentabilidade Empresarial (4º índice ESG do mundo, 2005), ICO2 B3, IGCX, 7 dimensões avaliadas
-- **ISO** — ISO 26000, ISO 14001, ISO 45001, ISO 50001 e ABNT NBR 2030
+- **GRI** - Global Reporting Initiative (padrão mais adotado mundialmente)
+- **SASB / ISSB** - IFRS S1 e S2 (materialidade financeira)
+- **TCFD** - Task Force on Climate-related Financial Disclosures (4 pilares)
+- **EU Taxonomia** - 6 objetivos ambientais, Regulamento UE 2020/852
+- **ISE B3** - Índice de Sustentabilidade Empresarial (4º índice ESG do mundo, 2005), ICO2 B3, IGCX, 7 dimensões avaliadas
+- **ISO** - ISO 26000, ISO 14001, ISO 45001, ISO 50001 e ABNT NBR 2030
 
 ### KPIs ESG por Setor (abas interativas)
 Indicadores-chave de desempenho para 5 setores:
 - Financeiro, Industrial, Tecnologia, Energia, Setor Público
 
 ### Outras seções
-- **Processo de Reporte ESG** — 6 etapas (Diagnóstico → Materialidade → Coleta → Análise → Publicação → Verificação)
-- **Riscos de Greenwashing e Greenhushing** — sinais de alerta e como evitar
-- **Checklist interativo** — 14 itens com barra de progresso em tempo real
-- **Ferramentas ESG** — SoftExpert, Workiva, IBM Envizi, Greenly, Power BI, TOTVS
+- **Processo de Reporte ESG** - 6 etapas (Diagnóstico → Materialidade → Coleta → Análise → Publicação → Verificação)
+- **Riscos de Greenwashing e Greenhushing** - sinais de alerta e como evitar
+- **Checklist interativo** - 14 itens com barra de progresso em tempo real
+- **Ferramentas ESG** - SoftExpert, Workiva, IBM Envizi, Greenly, Power BI, TOTVS
 
 ### Quiz Interativo
 - Banco de **30 questões** cobrindo fundamentos, frameworks, KPIs, greenwashing e cenário brasileiro
@@ -45,6 +45,8 @@ Indicadores-chave de desempenho para 5 setores:
 ---
 
 ## Como Usar
+
+Você pode acessar o site pelo link: [https://luiznuness-py.github.io/projeto-esg/](https://luiznuness-py.github.io/projeto-esg/).
 
 1. Abra `index.html` no navegador (funciona offline, sem servidor necessário).
 2. Navegue entre **"O que é ESG"** e **"Quiz"** pela barra de navegação.
@@ -83,7 +85,7 @@ projeto-esg/
 
 A aplicação segue o padrão **SPA (Single Page Application)** sem frameworks externos:
 
-- `main.js` intercepta cliques na navegação e carrega o HTML de cada página via **Fetch API**, injetando no `<main id="app">` — sem recarregamento de página.
+- `main.js` intercepta cliques na navegação e carrega o HTML de cada página via **Fetch API**, injetando no `<main id="app">` - sem recarregamento de página.
 - Após carregar a `home`, invoca `window.initHome()` (definido em `home.js`) para inicializar tabs, checklist e contadores animados.
 - Após carregar o `quiz`, invoca `window.initQuiz()` (definido em `quiz.js`) para iniciar o quiz com questões sorteadas.
 - `utils.js` expõe helpers via `window.utils` para evitar duplicação entre módulos.
@@ -115,17 +117,17 @@ A aplicação segue o padrão **SPA (Single Page Application)** sem frameworks e
 
 | Variável | Hex | Uso |
 |---|---|---|
-| `--primary` | `#1a5f4a` | Verde escuro — Pilar Ambiental, destaques principais |
-| `--secondary` | `#2d9b7e` | Verde médio — gradientes, barras de progresso |
-| `--highlight` | `#f39c12` | Âmbar — Pilar Social, alertas |
-| `--bg` | `#ecf0f1` | Cinza claro — fundo da aplicação |
-| `--text` | `#2c3e50` | Cinza escuro — texto principal |
+| `--primary` | `#1a5f4a` | Verde escuro - Pilar Ambiental, destaques principais |
+| `--secondary` | `#2d9b7e` | Verde médio - gradientes, barras de progresso |
+| `--highlight` | `#f39c12` | Âmbar - Pilar Social, alertas |
+| `--bg` | `#ecf0f1` | Cinza claro - fundo da aplicação |
+| `--text` | `#2c3e50` | Cinza escuro - texto principal |
 
 ---
 
 ## Licença
 
-Projeto educacional — livre para adaptar e estudar.
+Projeto educacional - livre para adaptar e estudar.
 
 ---
 
